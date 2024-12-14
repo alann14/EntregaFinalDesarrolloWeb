@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fuentes/Roboto/Roboto-Bold.ttf)
+}
+@font-face{
+    font-family: roboto-regular;
+    src: url(../fuentes/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: robotocondensed;
+    src: url(../fuentes/Roboto/RobotoCondensed-Bold.ttf);
+}
+h1{
+    font-family: roboto-regular;
+    font-size: 5;
+}
+nav ul{
+
+    font-size: auto;
+    font-family: roboto-bold;
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+    color: black;
+}
+main{
+    font-family: roboto-regular;
+}
+.welcome-text{
+    font-family: robotocondensed;
+}
+.noticias {
+    display: flex;
+    background-color: rgb(6, 41, 60);
+    color: white;
+}
+.tabla{
+    display: flex;
+    width: 100px;
+}
+body{
+    font-family: Verdana;
+    font-size: 20px;
+}
+nav ul li {
+    text-align: center;
+    display: inline;
+    margin-right: 20x;
+}
+h1{
+    font-family: roboto-bold;
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+    color: rgb(8, 8, 8);
+}
+.logo-container {
+    text-align: center;
+}
+img {
+    display: inline-block;
+    width: 200px;
+}
+header{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(15, 137, 231);
+}
+.article{
+    max-width: 100%;
+}
+article{ 
+    font-family: roboto-regular;
+    background-color: rgb(86, 156, 226);
+}
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    border: 2px;
+} 
+.contenedor1 img {
+    max-width: 200px; 
+    margin-right: 20px;
+}
+.contenedor1 p {
+    font-size: 16px;
+}
+.contenedor2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+} 
+.contenedor2 img {
+    max-width: 200px; 
+    margin-right: 20px;
+}
+.contenedor2 p {
+    font-size: 16px;
+}
+
+.contenedor3 {
+    display: flex;
+    align-items: center;
+} 
+.contenedor3 img {
+    max-width: 200px; 
+    margin-right: 20px;
+}
+.contenedor3 p {
+    font-size: 16px;
+}
+.bienvenida{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contenedor {
+    display: inline-block;
+}
+.noticias h3{
+    text-decoration: underline;
+}
+footer{
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    text-shadow: 10px;
+    margin-top: auto;
+}
+.titulo-tabla{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tabla-argentina{
+    background-color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+@media (max-width: 320px) {
+    header {
+        max-width: 100%;
+        margin: 0%;
+        padding: 0%;
+        font-size: 14px;
+    }
+    nav ul{
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+    }
+    h1{
+        font-size: 20px;
+        padding: 5%;
+    }
+    .bienvenida{
+        font-size: 10px;
+    }
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+    .contenedor1{
+        text-align: center;
+        max-width: 100%;
+        display: block;
+    }
+    .contenedor1 img{
+        max-width: 30%;
+    }
+    .contenedor1 h2{
+        font-size: 12px;
+        margin-top: 1px;
+        max-width: 90%;
+    }
+    .contenedor1 p{
+        font-size: 10px;
+        max-width: 94%;
+    }
+
+    .contenedor2{
+        text-align: center;
+        max-width: 100%;
+        display: block;
+        ;
+    }
+    .contenedor2 img{
+        max-width: 30%;
+    }
+    .contenedor2 h2{
+        font-size: 12px;
+        margin-top: 1px;
+        max-width: 90%;
+    }
+    .contenedor2 p{
+        font-size: 10px;
+        max-width: 94%;
+    }
+
+    .contenedor3{
+        text-align: center;
+        max-width: 100%;
+        display: block;
+        ;
+    }
+    .contenedor3 img{
+        
+        max-width: 30%;
+        
+    }
+    .contenedor3 h2{
+        margin-top: 1px;
+        max-width: 90%;
+    }
+    .contenedor3 p{
+        font-size: 10px;
+        max-width: 94%;
+    }
+
+    .contenedor{
+        max-width: 80%;
+    }
+    .tabla{
+        max-width: 50%;
+        font-size: 15px;
+    }
+    .noticias{
+        font-size: 15px;
+    }
+
+
+    footer{
+        padding: 0%;
+        margin: 0%;
+        margin-top: auto;
+        text-align: center;
+        font-size: 10px;
+    }
+    .sudamericana img{
+        width: 100%;
+    }
+    .tabla-argentina {
+        font-size: 1px;
+    }
+    
+    
+}
